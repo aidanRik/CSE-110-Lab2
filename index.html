@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Meeting minutes for the HardCoders — Kickoff Meeting session held on April 10, 2026.">
+  <meta name="author" content="HardCoders Secretary">
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PNG_transparency_demonstration_1.png/280px-PNG_transparency_demonstration_1.png" type="image/png">
+  <title>HardCoders — Kickoff Meeting </title>
+</head>
+
+<body>
+
+  <!-- ===================== PAGE HEADER ===================== -->
+  <header>
+    <h1>HardCoders</h1>
+    <p><strong>Meeting Minutes</strong> &mdash; Kickoff Meeting</p>
+
+    <nav>
+      <p>Jump to section:</p>
+      <ul>
+        <li><a href="#info">Meeting Info</a></li>
+        <li><a href="#attendance">Attendance</a></li>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#unfinished">Unfinished Business</a></li>
+        <li><a href="#new-business">New Business</a></li>
+        <li><a href="#misc">Questions &amp; Comments</a></li>
+        <li><a href="#media">Diagrams &amp; Media</a></li>
+        <li><a href="#feedback">Feedback Form</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <hr>
+
+  <main>
+
+    <!-- ---- Meeting Info ---- -->
+    <section id="info">
+      <h2>Meeting Information</h2>
+
+      <p>
+        <b>Meeting Title:</b> Kickoff Meeting <br>
+        <b>Type:</b> <em>Technical Planning Session</em><br>
+        <b>Leader:</b> Jordan Lee (Project Lead)<br>
+        <b>Note-taker:</b> Sam Nguyen
+      </p>
+
+      <h3>Date &amp; Time</h3>
+      <p>
+        <b>Date:</b> Thursday, April 10, 2026<br>
+        <b>Time:</b> 5:00 PM &ndash; 6:30 PM PST<br>
+        <b>Location:</b> CSE Building, Basement &amp; <a href="https://zoom.us" target="_blank">Zoom</a> (hybrid)
+      </p>
+    </section>
+
+    <hr>
+
+    <!-- ---- Attendance ---- -->
+    <section id="attendance">
+      <h2>Attendance</h2>
+
+      <h3>Present</h3>
+      <ul>
+        <li>Jordan Lee <i>(Project Lead)</i></li>
+        <li>Sam Nguyen <i>(Backend)</i></li>
+        <li>Priya Patel <i>(Frontend)</i></li>
+        <li>Marcus Webb <i>(DevOps)</i></li>
+        <li>Lily Chen <i>(Design)</i></li>
+        <li>Owen Torres <i>(Full Stack)</i></li>
+      </ul>
+
+      <h3>Absent</h3>
+      <ul>
+        <li>Daniel Kim </li>
+      </ul>
+
+      <h3>Guests</h3>
+      <ul>
+        <li>Professor Powell <i>(advisor, attended first 20 min)</i></li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <!-- ---- Agenda ---- -->
+    <section id="agenda">
+      <h2>Agenda</h2>
+      <p>The following items were planned for discussion:</p>
+
+      <ol>
+        <li>Unfinished business review</li>
+        <li>First Sprint goal-setting</li>
+        <li>Task assignments &amp; deadlines</li>
+        <li>Open Q&amp;A</li>
+      </ol>
+    </section>
+
+    <hr>
+
+    <!-- ---- Unfinished Business ---- -->
+    <section id="unfinished">
+      <h2>Unfinished Business</h2>
+      <p>Items carried over from the last meeting (April 3, 2026)</b>:</p>
+
+      <ul>
+        <li>
+          <strong>OAuth integration</strong> — Sam started the implementation but it has a bug.
+        </li>
+        <li>
+          <strong>Mobile responsive layout</strong> — tablet and mobile views still pending.
+        </li>
+        <li>
+          <strong>CI/CD pipeline setup</strong> — Marcus configured staging; deployment
+          script needs final review from Jordan.
+        </li>
+        <li>
+          <strong>Logo finalization</strong> — Lily presented two options; team vote was
+          inconclusive.
+        </li>
+      </ul>
+
+      <details>
+        <summary>Action Item Completion Status</summary>
+        <p>Out of <b>9 action items</b> assigned in first meeting:</p>
+        <ul>
+          <li>5 items — <strong>completed</strong></li>
+          <li>4 items — <em>in progress</em> (carried over above)</li>
+        </ul>
+      </details>
+    </section>
+
+    <hr>
+
+    <!-- ---- New Business ---- -->
+    <section id="new-business">
+      <h2>New Business</h2>
+
+      <h3>Sprint 1 Goals</h3>
+      <p>The team aligned on the following goals for the first Sprint:</p>
+
+      <ol>
+        <li>
+          <strong>Launch MVP to internal beta testers</strong>
+          <p>Owen will coordinate with the 10 beta tester volunteers by April 12. Feedback form to be
+          live by end of sprint.</p>
+        </li>
+        <li>
+          <strong>Complete the notifications system</strong>
+          <p>Sam will finalize the WebSocket server. Priya will wire up the UI toast components.</p>
+        </li>
+        <li>
+          <strong>Documentation sprint</strong>
+          <p>All team members to write inline docs for their modules.
+        </li>
+      </ol>
+
+      <h3>Task Assignments</h3>
+      <p>Assigned tasks for Sprint 1:</p>
+
+      <ul>
+        <li><b>Jordan</b> — JSDoc pipeline, PR reviews, beta coordination</li>
+        <li><b>Sam</b> — OAuth bug fix, WebSocket server, backend docs</li>
+        <li><b>Priya</b> — Mobile responsive views, notification UI, frontend docs</li>
+        <li><b>Marcus</b> — Production deploy script, environment variable audit</li>
+        <li><b>Lily</b> — Logo vote, Lighthouse audit, design system docs</li>
+        <li><b>Owen</b> — Beta tester outreach, feedback form build, full-stack docs</li>
+      </ul>
+
+      <details>
+        <summary>Sprint 1 Deadline Breakdown</summary>
+        <ol>
+          <li><b>April 12</b> — Beta tester invites sent (Owen)</li>
+          <li><b>April 14</b> — OAuth bug resolved (Sam); production script approved (Marcus)</li>
+          <li><b>April 17</b> — Mid-sprint check-in meeting</li>
+          <li><b>April 24</b> — Sprint 1 review &amp; retrospective</li>
+        </ol>
+      </details>
+    </section>
+
+    <hr>
+
+    <!-- ---- Misc Comments ---- -->
+    <section id="misc">
+      <h2>Questions, Comments &amp; Concerns</h2>
+
+      <div>
+        <h3>Open Floor Notes</h3>
+        <p>The following came up during the open Q&amp;A portion of the meeting:</p>
+
+        <ul>
+          <li>
+            <strong>Marcus asked</strong> whether the team should migrate from Heroku to
+            <a href="https://railway.app" target="_blank">Railway</a> for cost savings.
+          </li>
+          <li>
+            <strong>Lily raised</strong> a concern about the lack of a dark mode in the current design.
+            Jordan noted this is out of scope for MVP but added to the backlog.
+          </li>
+          <li>
+            <strong>Professor Powell suggested</strong> the team consider writing a short
+            project blog post. Owen will draft something after the beta launch.
+          </li>
+        </ul>
+      </div>
+
+      <h3>Next Meeting</h3>
+      <p>
+        <b>Mid-Sprint Check-in:</b> Friday, April 17, 2026 at 5:00 PM PST<br>
+        <b>Location:</b> Zoom only<br>
+        <b>Facilitator:</b> Sam Nguyen
+      </p>
+    </section>
+
+    <hr>
+
+    <!-- ---- Diagrams & Media ---- -->
+    <section id="media">
+      <h2>Diagrams &amp; Media</h2>
+
+      <h3>Audio Recording</h3>
+      <p>
+        An audio recording of the meeting was captured for members who could not attend.
+        <br>
+      </p>
+
+      <audio controls>
+        <source src="cse110-lab2-video.mp3" type="audio/mpeg">
+        Your browser does not support the audio element. Please
+        <a href="cse110-lab2-video.mp3">download the audio recording</a> directly.
+      </audio>
+
+      <hr>
+
+      <h3>Video Recording</h3>
+      <p>
+        A screen and camera recording of the session is available below.
+      </p>
+
+      <video controls width="700">
+        <source src="cse110-lab2-video.mp4" type="video/mp4">
+        Your browser does not support the video element. Please
+        <a href="cse110-lab2-video.mp4">download the video recording</a> directly.
+      </video>
+
+    </section>
+
+    <hr>
+
+    <!-- ===================== FEEDBACK FORM ===================== -->
+    <section id="feedback">
+      <h2>Meeting Feedback Form</h2>
+      <p>
+        Please fill out this short form after reviewing the minutes.
+        Your feedback helps us improve future meetings!<br>
+      </p>
+
+      <form action="#" method="post">
+
+        <!-- Personal Info -->
+        <fieldset>
+          <legend><strong>Your Information</strong></legend>
+
+          <p>
+            <label for="full-name">Full Name:</label><br>
+            <input type="text" id="full-name" name="full-name" placeholder="e.g. Jordan Lee">
+          </p>
+
+          <p>
+            <label for="meeting-date">Date:</label><br>
+            <input type="date" id="meeting-date" name="meeting-date">
+          </p>
+
+          <p>
+            <label for="role">Your Role:</label><br>
+            <input type="text" id="role" name="role" list="role-options" placeholder="Start typing...">
+            <datalist id="role-options">
+              <option value="Project Lead">
+              <option value="Frontend Developer">
+              <option value="Backend Developer">
+              <option value="DevOps Engineer">
+              <option value="UI/UX Designer">
+              <option value="Full Stack Developer">
+              <option value="Advisor / Faculty">
+              <option value="Guest">
+            </datalist>
+          </p>
+        </fieldset>
+
+        <!-- Attendance -->
+        <fieldset>
+          <legend><strong>Attendance</strong></legend>
+          <p>Did you attend this meeting?</p>
+          <p>
+            <input type="radio" id="attended-yes" name="attended" value="yes">
+            <label for="attended-yes">Yes, I was there</label>
+          </p>
+          <p>
+            <input type="radio" id="attended-no" name="attended" value="no">
+            <label for="attended-no">No, I am reviewing asynchronously</label>
+          </p>
+          <p>
+            <input type="radio" id="attended-partial" name="attended" value="partial">
+            <label for="attended-partial">Partially (joined late or left early)</label>
+          </p>
+        </fieldset>
+
+        <!-- Minutes Quality -->
+        <fieldset>
+          <legend><strong>Meeting Quality</strong></legend>
+
+          <p>
+            <label for="clarity">How would you rate the clarity of this meeting?</label><br>
+            <select id="clarity" name="clarity">
+              <option value="">-- Select a rating --</option>
+              <option value="5">5 — Very clear and comprehensive</option>
+              <option value="4">4 — Clear, minor gaps</option>
+              <option value="3">3 — Adequate, some confusion</option>
+              <option value="2">2 — Unclear in several areas</option>
+              <option value="1">1 — Hard to follow</option>
+            </select>
+          </p>
+
+          <p>What sections were most useful? (Check all that apply)</p>
+          <p>
+            <input type="checkbox" id="chk-agenda" name="useful-sections" value="agenda">
+            <label for="chk-agenda">Agenda</label>
+          </p>
+          <p>
+            <input type="checkbox" id="chk-unfinished" name="useful-sections" value="unfinished">
+            <label for="chk-unfinished">Unfinished Business</label>
+          </p>
+          <p>
+            <input type="checkbox" id="chk-new" name="useful-sections" value="new-business">
+            <label for="chk-new">New Business</label>
+          </p>
+          <p>
+            <input type="checkbox" id="chk-tasks" name="useful-sections" value="tasks">
+            <label for="chk-tasks">Task Assignments</label>
+          </p>
+          <p>
+            <input type="checkbox" id="chk-media" name="useful-sections" value="media">
+            <label for="chk-media">Diagrams &amp; Media</label>
+          </p>
+        </fieldset>
+
+        <!-- Open Feedback -->
+        <fieldset>
+          <legend><strong>Open Feedback</strong></legend>
+
+          <p>
+            <label for="comments">Any additional comments, corrections, or suggestions?</label><br>
+            <textarea id="comments" name="comments" rows="5" cols="60"
+              placeholder="any additional comments"></textarea>
+          </p>
+        </fieldset>
+
+        <p>
+          <button type="submit">Submit Feedback</button>
+          <button type="reset">Clear Form</button>
+        </p>
+
+      </form>
+    </section>
+
+  </main>
+
+  <hr>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer>
+    <p>
+      <small>
+        &copy; HardCoders &mdash; UC San Diego
+      </small>
+    </p>
+  </footer>
+
+</body>
+</html>
